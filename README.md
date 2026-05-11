@@ -1,4 +1,3 @@
-````markdown
 # Economic Growth and Government Spending  
 ### A Multipage Dash Web App for Interactive Data Visualization
 
