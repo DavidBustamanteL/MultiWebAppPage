@@ -2,7 +2,7 @@
 """
 Created on Wed Jun 28 12:59:52 2023
 
-@authors: DavidBL, TatianaT, YevheniiaO, CesarV
+@authors: DavidBL
 
 Topic: QR-Code
 """
