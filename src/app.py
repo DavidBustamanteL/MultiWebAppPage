@@ -26,7 +26,7 @@ pip install pycountry_convert
 """
 
 # WD if needed
-os.chdir("")
+#os.chdir("")
 
 # App
 
