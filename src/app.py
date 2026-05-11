@@ -25,7 +25,8 @@ pip install pycountry
 pip install pycountry_convert
 """
 
-os.chdir(r"G:\My Drive\2. Master IEPP JG-Uni Mainz\1. Module\3. SoSe23\2. +Intro to Computational Statistics and Data Analysis in R\1. Lecture&Tutorial\0. Presentation&Paper\src")
+# WD if needed
+os.chdir("")
 
 # App
 
