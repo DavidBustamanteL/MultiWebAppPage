@@ -111,63 +111,46 @@ fig.update_layout(
 # Layout
 
 layout = html.Div([
-
     html.H1(
         "Public Healthcare Expenditure as Share of GDP",
-        style = {"textAlign": "left"}
-    ),
-
+        style = {"textAlign": "left"}),
     dcc.Markdown(
         """
         Historical data for Healthcare expenditure in the public sector.
         """,
         style = {
             "textAlign": "left",
-            "fontSize": "18px"
-        }
-    ),
-
+            "fontSize": "18px"}),
     html.Br(),
-
     dbc.Row([
         dbc.Col([
-
             html.Div(
                 dcc.Graph(
                     id = "lines",
                     figure = fig,
                     style = {
                         "height": "700px",
-                        "width": "100%"
-                    },
+                        "width": "100%"},
                     config = {
                         "responsive": False,
-                        "displayModeBar": True
-                    }
-                ),
+                        "displayModeBar": True),
                 style = {
                     "height": "700px",
                     "maxHeight": "700px",
                     "overflow": "hidden",
-                    "width": "100%"
-                }
-            ),
-
+                    "width": "100%"}),
             html.Div(
                 [
                     "Source: ",
                     html.A(
                         "Our World in Data",
                         href = "https://ourworldindata.org/financing-healthcare",
-                        target = "_blank"
-                    )
-                ],
+                        target = "_blank")],
                 style = {
                     "textAlign": "left",
                     "fontSize": "14px",
                     "marginTop": "5px",
-                    "color": "darkblue"
-                }
+                    "color": "darkblue"}
             )
 
         ])
