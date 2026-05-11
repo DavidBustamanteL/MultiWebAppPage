@@ -80,10 +80,6 @@ project-folder/
 │   │   └── ...
 │   │
 │   ├── assets/
-│   │   ├── images/
-│   │   └── styles.css
-│   │
-│   └── data/
 │       ├── gdp.csv
 │       ├── education.csv
 │       ├── healthcare.csv
