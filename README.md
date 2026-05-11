@@ -113,7 +113,8 @@ project-folder/
 │       ├── gdp.csv
 │       ├── education.csv
 │       ├── healthcare.csv
-│       └── government.csv
+│       ├── government.csv
+│       └── any images added to the web page
 │
 ├── README.md
 └── .gitignore
